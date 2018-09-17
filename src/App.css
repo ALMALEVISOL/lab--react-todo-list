@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #1a74c0;
+  height: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.todoList_item_delete_icon {
+  width: 20px;
+}
+
+.addBar {
+  height: 240px;
+  display: inline;
+}
+
+.add_input {
+  border: 2px black solid;
+  height: 25px;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.add_button {
+  height: 35px;
+  width: 250px;
+}
+
+.toDoList {
+  text-align: -webkit-left;
+}
+
+.toDoList_item {
+  background-color: lightgreen;
+  margin-top: 15px;
+  height: 35px;
+  display: flow-root;
+}
+
+.toDoList_item_disabled {
+  background-color: darkgrey;
+  height: 45px;
+  margin-top: 15px;
+  display: flow-root;
+}
+
+.toDoList_item_urgent {
+  background-color: lightcoral;
+  height: 45px;
+  margin-top: 15px;
+  display: flow-root;
+}
+
+.addBar_input_checkbox {
+  height: 25px;
+  width: 250px;
+}
+
+.addBar_input_date {
+  width: 30%;
+  height: 20px;
+}
+
+.nav_item {
+  border: 2px solid blue;
+  margin-right: 20px;
+}
+
+.nav_tabs_container {
+  display: -webkit-box;
+}
+
+.active {
+  background-color: purple;
+  color: aliceblue;
+}
